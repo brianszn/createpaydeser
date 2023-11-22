@@ -1,7 +1,7 @@
 # createpaydeser
 Script to automoate a creation of payload serialize to exploit java deserialization
 
-	#### Java serialized payload generator 
+	 Java serialized payload generator 
 	 github.com/brianszn 
 
 	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --b64
@@ -14,7 +14,7 @@ Script to automoate a creation of payload serialize to exploit java deserializat
 usage: genpay.py [-h] [--b64] [--gzp] --path PATH --cmd CMD
 
 ## options:
-   -h, --help   show this help message and exit
+   -h, --help   show this help message and exit\n
    --b64        rO0 in Base64
    --gzp        H4sIA" when gzip(base64)
    --path PATH  ysoerial-modified.jar Path
