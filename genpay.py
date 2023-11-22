@@ -8,8 +8,8 @@ def banner():
 	[ Java serialized payload generator ]
 	[ github.com/brianszn ]
 
-	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --b64
-	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --gzp
+	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --b64 --cmd whoami
+	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --gzp --cmd whoami
 
 	obs: "ysoserial-modified.jar" default name of ysoserial jar archive in the path.
 	obs: Payloads converted in URL.
