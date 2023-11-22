@@ -1,14 +1,15 @@
 # createpaydeser
 Script to automoate a creation of payload serialize to exploit java deserialization
 
-	 Java serialized payload generator 
+Java serialized payload generator 
 	 github.com/brianszn 
 
-	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --b64 --cmd whoami
-	ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --gzp --cmd whoami
+ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --b64 --cmd whoami
+ex: python3 bla.py --path "/home/s1xdev/brn/red/ysoserial-modified/target/" --gzp --cmd whoami
 
-	obs: "ysoserial-modified.jar" default name of ysoserial jar archive in the path.
-	obs: Payloads converted in URL.
+obs: "ysoserial-modified.jar" default name of ysoserial jar archive in the path.
+obs: Payloads converted in URL.
+
 options:
    -h, --help   show this help message and exit
    
