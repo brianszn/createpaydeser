@@ -14,6 +14,9 @@ options:
    -h, --help   show this help message and exit
    
    --b64        rO0 in Base64
+   
    --gzp        H4sIA" when gzip(base64
+   
    --path PATH  ysoerial-modified.jar Path
+   
    --cmd CMD    command to exec
