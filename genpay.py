@@ -73,14 +73,3 @@ created: payload_list.txt
 
 	""")
 
-"""
-
-	output = check_output(ysoserial_command, shell=True).decode('utf-8');os.system('clear');print(banner())
-	regex = "WARNING:.*"
-	apply_regex = re.sub(regex, "", output)
-	clean_regex = apply_regex.lstrip("\n")
-
-	with open('teste.txt', 'w') as file:
-		file.write(clean_regex)
-
-"""
