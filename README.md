@@ -9,13 +9,13 @@ Script to automoate a creation of payload serialize to exploit java deserializat
 
 	obs: "ysoserial-modified.jar" default name of ysoserial jar archive in the path.
 	obs: Payloads converted in URL.
-
-	
-usage: genpay.py [-h] [--b64] [--gzp] --path PATH --cmd CMD
-
-## options:
-   -h, --help   show this help message and exit\n
+options:
+   -h, --help   show this help message and exit
+   
    --b64        rO0 in Base64
+   
    --gzp        H4sIA" when gzip(base64)
+   
    --path PATH  ysoerial-modified.jar Path
+   
    --cmd CMD    command to exec
